@@ -10,7 +10,7 @@ int main() {
     do {
         printf("Enter your guess: ");
         scanf("%d", &guess);
-        attempts++;x
+        attempts++;
 
         if (guess < target) {
             printf("Too low!\n");
